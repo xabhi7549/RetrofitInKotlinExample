@@ -2,9 +2,6 @@ package com.site_valley.retrofitinkotlin
 
 import com.google.gson.annotations.SerializedName
 
-
-
-
 class MultipleResource {
     @SerializedName("page")
     var page: Int? = null

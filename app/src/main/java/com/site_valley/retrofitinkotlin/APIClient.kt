@@ -11,7 +11,7 @@ class APIClient {
 
     fun getClient(): Retrofit? {
         val interceptor = HttpLoggingInterceptor()
-        interceptor.level=HttpLoggingInterceptor.Level.BODY
+        interceptor.level = HttpLoggingInterceptor.Level.BODY
         val client = OkHttpClient.Builder().addInterceptor(interceptor).build()
         retrofit = Retrofit.Builder()
             .baseUrl("https://reqres.in")

@@ -1,7 +1,7 @@
 package com.site_valley.retrofitinkotlin
 
 import retrofit2.Call
-import retrofit2.http.*
+import retrofit2.http.GET
 
 
 interface APIInterface {
